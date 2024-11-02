@@ -1,0 +1,95 @@
+/* Centrem el contingut */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    height: 100vh;
+}
+img {
+    width: 15px;
+    height: auto;
+    margin-bottom: 20px;
+}
+/* Estil del títol */
+h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 20px;
+}
+
+/* Taula de l'horari */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 2px solid #333;
+    padding: 15px;
+    text-align: center;
+    width: 150px;
+    height: 60px;
+}
+
+/* Estils per cada mòdul */
+.m01 {
+    background-color: #ffcccc;
+    font-family: 'Lobster', cursive;
+}
+
+.m02 {
+    background-color: #ccffcc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.m03 {
+    background-color: #ccccff;
+    font-family: 'Arial', sans-serif;
+    text-decoration: underline;
+}
+
+.m10IPO1 {
+    background-color: #ffffcc;
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.m14DIG {
+    background-color: #ffccff;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}
+
+.m15SOS {
+    background-color: #ccffff;
+    font-family: 'Verdana', 'Courier New', Courier, monospace;
+}
+
+.m05 {
+    background-color: #ffebcc;
+    font-family: 'Georgia', serif;
+}
+
+/* Estil per al descans */
+.descans {
+    background-color: #a28aca;
+    font-weight: bold;
+    font-size: 16px;
+    color: #f13a89;
+}
+
+/* Enllaços */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
